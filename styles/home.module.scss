@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .header {
+        width: 100%;
+        height: 60px;
+        height: auto;
+        position: relative;
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            height: 60px;
+            width: 100%;
+            position: relative;
+
+            .brandLogo {
+                flex-shrink: 0;
+            }
+
+            .navItems {
+                margin-left: 20px;
+                display: flex;
+                flex-grow: 1;
+                list-style: none;
+                justify-content: space-between;
+                // margin-top: -80px;
+                // float: right;
+                // margin-right: 280px;
+
+                li:first-child {
+                    color: aqua;
+                }
+
+                li:nth-of-type(2) {
+                    color: #FFD700;
+                }
+
+                li {
+                    text-align: center;
+
+                    .navLink {
+                        line-height: 60px;
+                        font-size: 1.3em;
+                        font-weight: 900;
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .navMenuIcon {
+                margin-left: 2em;
+                font-size: 1.6em;
+                padding: 0.6em;
+                cursor: pointer;
+            }
+        }
+    }
+}
